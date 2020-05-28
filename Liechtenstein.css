@@ -41,6 +41,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   height: 100vh;
+  width: 100vw;
   display: inline-block;
   position: fixed;
   z-index: -2;
