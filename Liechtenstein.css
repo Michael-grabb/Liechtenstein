@@ -1,6 +1,6 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -37,7 +37,17 @@ h1 {
   margin: 18px;
 }
 
-#bg {
+.bg {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  width: 100vw;
+  display: inline-block;
+  position: fixed;
+  z-index: -2;
+}
+
+.bg {
   margin-left: auto;
   margin-right: auto;
   height: 100vh;
@@ -79,4 +89,30 @@ h1 {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+#info {
+  margin: 0 0 0 20%;
+}
+
+#gv {
+  margin-left: 20%;
+}
+
+#in {
+  margin: 8% 0 0 80%;
+}
+
+#pop {
+  margin: 35% 0 0 6%;
+}
+
+table {
+  font-size: 120%;
+  width: 400px;
+  background-color: lightgrey;
+}
+
+td {
+  text-align: center;
 }
